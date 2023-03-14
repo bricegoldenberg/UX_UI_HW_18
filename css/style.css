@@ -164,17 +164,16 @@ footer ul li {
   
 
   @media screen and (max-width: 600px) {
-	/* change flex-direction to column */
+
 	.flexContainer {
 	flex-direction: column;
 	}
 	
-	/* set flex children to take up 100% of width */
+	
 	.flexContainer > div {
 	width: 100%;
 	}
 	
-	/* adjust grid for mobile views */
 	.workGrid {
 	grid-template-areas:
 	"image1 title1"
